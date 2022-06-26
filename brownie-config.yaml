@@ -1,0 +1,11 @@
+# special file that brownie looks for to grab info about where you are going to build, deploy
+dotenv: .env # this is basically saying, when you run scripts grab the environment variables from .env file.
+
+# we can add info about what wallets we want to use and when we want to use them.
+wallets:
+  from_key: ${PRIVATE_KEY}
+
+project_structure:
+  build: client/src/artifacts
+
+dev_deployment_artifacts: true
