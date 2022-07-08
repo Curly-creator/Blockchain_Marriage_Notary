@@ -85,16 +85,16 @@ _Note: Only the married couple can withdraw their ether. Currently you can only 
 ## To do
 
 - At the moment you can interact only with one account (account[0]) from local ganache) with the notary. 
-Hardcoded in [App.js](client\src\App.js) in ringBell- and withdraw-function.
+Hardcoded in [App.js](smart-contract\main\client\src\App.js) in ringBell- and withdraw-function.
 
 - Copybutton in Marriage List is currently not working
 
 ## Links to important Files
-[Smart Contract](smart-contract\contracts\MarriageContract.sol) Solidity Code for the Marriage Notary contract
+[Smart Contract](https://gitlab.rz.htw-berlin.de/s0577630/smart-contract/-/blob/main/contracts/MarriageContract.sol) Solidity Code for the Marriage Notary contract
 
-[GUI](client\src\App.js) React Code for our User Interface
+[GUI](https://gitlab.rz.htw-berlin.de/s0577630/smart-contract/-/blob/main/client/src/App.js) React Code for our User Interface
 
-[Deploy Script](scripts\deploy.py) Python Code for deployment of the Smart Contract
+[Deploy Script](https://gitlab.rz.htw-berlin.de/s0577630/smart-contract/-/blob/main/scripts/deploy.py) Python Code for deployment of the Smart Contract
 
 ## Authors
 Anna von Blohn, Tanvi Shamra, Jonas Burger
