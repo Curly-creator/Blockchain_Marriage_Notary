@@ -97,7 +97,7 @@ Hardcoded in [App.js](smart-contract\main\client\src\App.js) in ringBell- and wi
 [Deploy Script](https://gitlab.rz.htw-berlin.de/s0577630/smart-contract/-/blob/main/scripts/deploy.py) Python Code for deployment of the Smart Contract
 
 ## Authors
-Anna von Blohn, Tanvi Shamra, Jonas Burger
+Anna von Blohn, Tanvi Sharma, Jonas Burger
 
 ## License
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
