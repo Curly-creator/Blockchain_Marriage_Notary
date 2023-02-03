@@ -30,7 +30,7 @@ Make sure every component is installed correctly.
 
 **1. Connect your local Ganache with Brownie by typing the following command into your commandline.**
 
-brownie networks add Ethereum ganache-local host="_RPC-SERVER_" chainid:"_CHAIN_ID_"
+brownie networks add Ethereum ganache-local host="_RPC-SERVER_" chainid="_CHAIN_ID_"
 
 _RPC-SERVER_: RPC-Server of your local Ganache. Default should be http://127.0.0.1:8545
 
@@ -39,10 +39,12 @@ _CHAIN_ID_: Network Id of your local Ganache. Default should be 1337
 **2. Connect your Ganache to MetaMask and import an account.**
 
 To do so, follow this [Guide](https://www.youtube.com/watch?v=lv4HEyiw4EQ). Make sure to import account[0]. Currently this is the only account that can interact with the Smart Contract.
+Alternatively use this [Guide](https://www.youtube.com/watch?v=nUEBAS5r4Og)
 
 **3. Install npx and Yarn by typing the following command into your commandline.**
 
 npm install -g npx
+
 npm install --global yarn
 
 **4. Deploy the Smart Contract to your local Ganache-Blockchain. Therefore type the following command into the commandline.**
